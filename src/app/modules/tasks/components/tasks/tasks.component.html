@@ -1,0 +1,45 @@
+<form (ngSubmit) = "onSubmit()">
+
+  <div>
+    <label for="task">Add New Task: </label>
+    <input type="text" placeholder="Add New Task Here" name="task" required [(ngModel)] = "addTask.task">
+  </div>
+
+  <div>
+    <label for="description">Description: </label>
+    <textarea type="text" placeholder="Add Details About Your Task Here :D" name="description" required [(ngModel)] = "addTask.description"></textarea>
+  </div>
+
+  <!-- <div>
+    <label for="desciption">Date: </label>
+    <input type="text" placeholder="Today's Date" name="date" required [(ngModel)] = "addTask.date">
+  </div> -->
+
+  <div>
+      <button id="add" type="submit">Add New Task</button>
+      <button id="delete" (click)="onClickDelete()">Delete Task</button> 
+    <button id="details" (click)="onClickDetails()">Task Details</button>
+    </div>
+    <div>
+      <button id="update" (click)="onClickUpdate()">Update Task</button>
+      <li *ngFor="let task of tasks">
+          <p>{{task.id + 1}}. {{task.task}}{{task.description}}</p>
+      </li>
+  </div>
+  
+
+</form>
+
+<div>
+  <ul>
+    <li *ngFor="let task of tasks">{{task}}</li>
+  </ul>
+  
+</div>
+<div>
+<ul>
+  <li>{{task}}</li>
+</ul>
+</div>
+
+

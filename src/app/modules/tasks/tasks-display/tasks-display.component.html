@@ -1,0 +1,12 @@
+<div>
+    <button id="update" (click)="onTaskViewed()">Update Task</button>
+    <li *ngFor="let task of tasks">
+        <p>{{task.id + 1}}. {{task.task}}{{task.description}}</p>
+    </li>
+</div>
+
+<!-- 
+<div class= "details">
+    <app-task-details *ngFor="let task of tasks"
+    [task]="task"></app-task-details>
+  </div> -->

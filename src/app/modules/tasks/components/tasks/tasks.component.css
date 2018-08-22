@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+#add{
+    background-color: rgb(23, 97, 182);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+
+}
+#add:hover{
+    background-color: rgb(22, 235, 75);
+
+}
+
+
+#delete{
+    background-color: rgb(223, 45, 45);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+
+}
+#delete:hover{
+    background-color: rgb(219, 143, 29);
+}
+
+
+#details{
+    background-color: rgb(219, 143, 29);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+
+}
+#details:hover{
+    background-color: rgb(29, 206, 219);
+}
+
+#update{
+    background-color: rgb(133, 29, 219);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+
+}
+#update:hover{
+    background-color: rgb(29, 206, 219);
+}
+form{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-display: inline block;
+}
+
+    input[type=text], select, textarea {
+        width: 25%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        margin: 5px;
+}

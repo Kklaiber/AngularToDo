@@ -1,0 +1,17 @@
+{
+    "tasks": [ 
+        {
+            "task": "walk the doggy",
+            "description": "excercise for one hour"
+        },
+        {
+            "task": "clean the house",
+            "description": "Take out the trash and recycling, do the dishes, do laundry"
+        },
+        {
+            "task": "shave my head",
+            "description": "pretty self-explanatory"
+        }
+
+    ]
+}
